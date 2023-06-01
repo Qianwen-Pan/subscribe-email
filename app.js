@@ -23,7 +23,7 @@ app.post("/", (req, res) => {
 
     const run = async () => {
         try {
-            const response = await client.lists.batchListMembers("8e1495ec8", {
+            const response = await client.lists.batchListMembers("8e1495ec86", {
                 members: [{
                   "email_address" :email,
                   "status": "subscribed",
